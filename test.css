@@ -1,0 +1,14 @@
+#shopify-section-{{ section.id }}{
+  --primary-base-color: {{ section.settings.circle_button_background.red }}, {{ section.settings.circle_button_background.green }}, {{ section.settings.circle_button_background.blue }};
+  --primary-color: rgba(var(--primary-base-color), 0.5);
+  --secondary-color: {{ section.settings.circle_button_text_color }};
+ 
+}
+.flickity-prev-next-button{
+	    background: var(--primary-color);
+    color:var(--secondary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 3px 0px;
+}
